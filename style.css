@@ -1,0 +1,37 @@
+*{
+    user-select: none;
+}
+
+body{
+    width: 99%;
+    height: 90%;
+    background-size: cover;
+    background-image: url("Pictures/BackGround.PNG");
+}
+
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+h2{
+    margin-top: 100px;
+}
+
+h2,p{
+    font-weight: 100;
+    font-family: Arial;
+    color: rgb(246, 246, 246);
+
+}
+
+button{
+    border-radius: 20px;
+    border: 0;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
